@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-size: large;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #eee;
+}
