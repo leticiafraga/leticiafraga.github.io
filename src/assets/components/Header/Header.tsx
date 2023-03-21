@@ -1,5 +1,3 @@
-import { useSyncExternalStore } from "react";
-
 interface Props {
   options: NavLink[];
   activeSection: number;
@@ -13,13 +11,13 @@ interface NavLink {
 
 export default function Header(props: Props) {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+    <nav className="navbar navbar-expand">
+      <div className="container">
+        <a className="navbar-brand" href="#main">
           Letícia Fraga
         </a>
-        <div className="collapse navbar-collapse" id="navbarText">
-          <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
+        <div id="navbarText">
+          <ul className="navbar-nav ms-auto">
             {props.options.map((item, index) => (
               <li className="nav-item" key={index}>
                 <a

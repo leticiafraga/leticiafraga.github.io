@@ -1,6 +1,13 @@
+@import "../../../variables";
+
 .main {
   height: 100vh;
+  & > div {
+    padding: 15vh 0 10vh 20px;
+    border: 10px solid $bg;
+    border-image: linear-gradient(to right, $bg 40%, transparent 60%) 100% 1;
+  }
   h1 {
-    padding-top: 9vh;
+    font-size: 10vh;
   }
 }

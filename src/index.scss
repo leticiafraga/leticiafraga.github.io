@@ -3,6 +3,7 @@
 body {
   font-size: large;
   min-height: 100vh;
+  background-color: whitesmoke;
 }
 
 a {
@@ -16,4 +17,8 @@ nav {
   left: 0;
   width: 100%;
   background-color: #eee;
+}
+
+h2 {
+  font-size: 9vh;
 }
