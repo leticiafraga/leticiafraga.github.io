@@ -1,0 +1,24 @@
+@import "../../variables";
+
+.projects {
+  background-color: $bg;
+  height: 100vh;
+  padding-top: 9vh;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 16px;
+  border-radius: 10px;
+
+  img {
+    max-width: 100%;
+  }
+}
