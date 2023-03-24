@@ -18,28 +18,22 @@ const projects: Project[] = [
     image: pilates,
   },
   {
-    name: "SADFES",
+    name: "Gerenciamento de histórico de atletas",
     description:
-      "Sistema de gerenciamento de atletas desenvolvido para um cliente real",
-    link: "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti4-0658100-sadfes-demanda-7",
+      "Demonstração de um sistema de gerenciamento de atletas desenvolvido para um cliente real em uma disciplina da faculdade.",
+    link: "https://tis4-demo.web.app/",
     image: sadfes,
   },
   {
     name: "Portal de filmes",
     description:
-      "Site de visualização de filmes que utiliza a API The Movie DB",
+      "Site de visualização de filmes responsivo que utiliza a API The Movie DB",
     link: "https://leticiafraga.github.io/portal-filmes/index.html",
     image: portalFilmes,
   },
   {
-    name: "Studio Zen Pilates",
-    description: "Site de um studio de pilates",
-    link: "https://studiozenpilates.web.app/",
-    image: pilates,
-  },
-  {
-    name: "Studio Zen Pilates",
-    description: "Site de um studio de pilates",
+    name: "Portfolio",
+    description: "Meu portfolio em React",
     link: "https://studiozenpilates.web.app/",
     image: pilates,
   },
@@ -54,18 +48,22 @@ export default function Projects() {
       id="projects"
     >
       <div className="col-3 offset-1">
-        <h2>Projects</h2>
+        <h2>Projetos</h2>
       </div>
       <div className={"col-7 " + style.wrapper}>
         {projects.map((p) => (
-          <div className={style.card + " d-flex"}>
-            <a href={p.link} className="col-6">
-              <img src={p.image} />
+          <div className={style.flipCard}>
+            <a target="_blank" href={p.link} className={style.flipCardInner}>
+              <div className={style.flipCardFront}>
+                <h3>{p.name}</h3>
+                <div className={style.imgContainer}>
+                  <img src={p.image} />
+                </div>
+              </div>
+              <div className={style.flipCardBack}>
+                <p>{p.description}</p>
+              </div>
             </a>
-            <div className="mb-2 ms-2 col-6">
-              <h3>{p.name}</h3>
-              <p>{p.description}</p>
-            </div>
           </div>
         ))}
       </div>

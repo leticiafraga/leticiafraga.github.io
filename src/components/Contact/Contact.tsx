@@ -9,7 +9,7 @@ export default function Contact() {
       id="contact"
     >
       <div className="col-10 offset-1">
-        <h2>Contact</h2>
+        <h2>Contato</h2>
       </div>
     </section>
   );

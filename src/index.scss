@@ -2,7 +2,6 @@
 
 body {
   font-size: large;
-  min-height: 100vh;
   background-color: whitesmoke;
 }
 
@@ -21,4 +20,14 @@ nav {
 
 h2 {
   font-size: 9vh;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+
+img {
+  max-height: 100%;
+  max-width: 100%;
 }

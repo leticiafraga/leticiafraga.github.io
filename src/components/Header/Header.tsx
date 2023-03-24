@@ -1,3 +1,5 @@
+import style from './Header.module.scss';
+
 interface Props {
   options: NavLink[];
   activeSection: number;
@@ -11,7 +13,7 @@ interface NavLink {
 
 export default function Header(props: Props) {
   return (
-    <nav className="navbar navbar-expand">
+    <nav className={style.navbar + " navbar navbar-expand"}>
       <div className="container">
         <a className="navbar-brand" href="#main">
           Letícia Fraga

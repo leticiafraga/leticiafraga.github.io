@@ -24,6 +24,12 @@ export default function Resume() {
           <li>Engenharia de Software, PUC Minas, cursando</li>
           <li>Engenharia Aeroespacial, UFMG, cursado até o 4º período</li>
         </ul>
+        <h3>Idiomas</h3>
+        <ul>
+          <li>Inglês, B2</li>
+          <li>Espanhol, B1</li>
+          <li>Francês, A2</li>
+        </ul>
       </div>
     </section>
   );
