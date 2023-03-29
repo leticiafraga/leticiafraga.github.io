@@ -47,10 +47,10 @@ export default function Projects() {
       }
       id="projects"
     >
-      <div className="col-3 offset-1">
+      <div className="col-12 col-md-3 offset-md-1">
         <h2>Projetos</h2>
       </div>
-      <div className={"col-7 " + style.wrapper}>
+      <div className={"col-12 col-md-7 " + style.wrapper}>
         {projects.map((p) => (
           <div className={style.flipCard}>
             <a target="_blank" href={p.link} className={style.flipCardInner}>

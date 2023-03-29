@@ -10,10 +10,10 @@ export default function Resume() {
       id="resume"
     >
       <div className="col-1" />
-      <div className="col-5 text-end">
+      <div className="col-12 col-md text-center text-md-end">
         <h2>Currículo</h2>
       </div>
-      <div className="col-4 offset-1">
+      <div className="col-12 col-md-4 offset-md-1">
         <h3>Experiência</h3>
         <ul>
           <li>Estágio em Desenvolvimento de Software, Minds Digital</li>

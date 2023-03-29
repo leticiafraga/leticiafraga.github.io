@@ -21,7 +21,12 @@ function App() {
         onClickLink={setActive}
       />
 
-      <div id="main" className={style.main + " row align-items-center justify-content-center"}>
+      <div
+        id="main"
+        className={
+          style.main + " row align-items-center justify-content-center"
+        }
+      >
         <div className="col-10 offset-1">
           <h1>Letícia Fraga</h1>
           {sections.map((item, index) => (
