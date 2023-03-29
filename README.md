@@ -2,6 +2,6 @@
 
 Portfólio em React.
 
-Disponível em: 
+Disponível em: https://leticiafraga.github.io/portfolio/
 
-Utiliza as seguintes tecnologias: Typescript, Sass, Vite, Bootstrap, FontAwesome
+Utiliza as seguintes tecnologias: React, Typescript, Sass, Vite, Bootstrap, FontAwesome
