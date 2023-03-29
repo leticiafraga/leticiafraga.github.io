@@ -2,6 +2,7 @@ import style from "./Projects.module.scss";
 import pilates from "../../assets/studio-pilates.png";
 import portalFilmes from "../../assets/portal-filmes.png";
 import sadfes from "../../assets/sadfes.png";
+import portfolio from "../../assets/portfolio.png";
 
 interface Project {
   name: string;
@@ -12,28 +13,29 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "Studio Zen Pilates",
-    description: "Site de um estúdio de pilates",
-    link: "https://studiozenpilates.web.app/",
-    image: pilates,
-  },
-  {
     name: "Gerenciamento de histórico de atletas",
     description:
-      "Demonstração de um sistema de gerenciamento de atletas desenvolvido para um cliente real em uma disciplina da faculdade.",
+      "Demonstração de um sistema de gerenciamento de atletas desenvolvido para um cliente real. Desenvolvido em React, utilizando as bibliotecas react-router-dom e react-hook-form, com banco de dados e autenticação do Firebase",
     link: "https://tis4-demo.web.app/",
     image: sadfes,
   },
   {
     name: "Portal de filmes",
     description:
-      "Site de visualização de filmes responsivo que utiliza a API The Movie DB",
+      "Site de visualização de filmes responsivo que consome a API The Movie DB",
     link: "https://leticiafraga.github.io/portal-filmes/index.html",
     image: portalFilmes,
   },
   {
     name: "Portfolio",
-    description: "Meu portfolio em React",
+    description:
+      "Meu portfolio em React, onde, além de me apresentar, posso praticar o uso do React. Utiliza as seguintes tecnologias: Typescript, Sass, Vite, Bootstrap, FontAwesome",
+    link: "https://studiozenpilates.web.app/",
+    image: portfolio,
+  },
+  {
+    name: "Studio Zen Pilates",
+    description: "Site de um estúdio de pilates",
     link: "https://studiozenpilates.web.app/",
     image: pilates,
   },
