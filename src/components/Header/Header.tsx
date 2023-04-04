@@ -16,6 +16,7 @@ export default function Header(props: Props) {
     const { i18n } = useTranslation("app");
 
     const changeLanguage = async (lng: string) => i18n.changeLanguage(lng);
+    const toggleLanguage = i18n.language == "pt" ? "en" : "pt";
 
     return (
         <nav className={style.navbar + " navbar navbar-expand"}>
@@ -42,16 +43,15 @@ export default function Header(props: Props) {
                                 </a>
                             </li>
                         ))}
-                        <li>
+                        <li className="d-flex align-items-center justify-content-center">
                             <button
-                                type="button"
-                                onClick={() =>
-                                    changeLanguage(
-                                        i18n.language == "pt" ? "en" : "pt"
-                                    )
+                                className={
+                                    "btn btn-secondary " + style.changeLanguage
                                 }
+                                type="button"
+                                onClick={() => changeLanguage(toggleLanguage)}
                             >
-                                {i18n.language == "pt" ? "en" : "pt"}
+                                {toggleLanguage.toUpperCase()}
                             </button>
                         </li>
                     </ul>

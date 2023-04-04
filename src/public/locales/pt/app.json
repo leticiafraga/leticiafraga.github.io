@@ -2,12 +2,25 @@
     "title": "Letícia Fraga",
     "projects": "Projetos",
     "projectsSection": {
-        "athletesMonitoring": "Gerenciamento de histórico de atletas",
-        "moviesPortal": "Portal de filmes",
-        "portfolio": "Portfolio",
-        "pilates": "Studio Zen Pilates"
+        "athletesMonitoring": {
+            "title": "Gerenciamento de histórico de atletas",
+            "desc": "Demonstração de um sistema de gerenciamento de atletas desenvolvido para um cliente real. Desenvolvido em React, utilizando as bibliotecas react-router-dom e react-hook-form, com banco de dados e autenticação do Firebase"
+        },
+        "moviesPortal": {
+            "title": "Portal de filmes",
+            "desc": "Site de visualização de filmes responsivo que consome a API The Movie DB"
+        },
+        "portfolio": {
+            "title": "Portfolio",
+            "desc": "Meu portfolio em React, onde, além de me apresentar, posso praticar o uso do React. Ainda não está finalizado. Utiliza as seguintes tecnologias: Typescript, Sass, Vite, Bootstrap"
+        },
+        "pilates": {
+            "title": "Studio Zen Pilates",
+            "desc": "Site institucional de um estúdio de pilates que utiliza com Bootstrap"
+        }
     },
     "resume": "Currículo",
     "contact": "Contato",
-    "technologies_work": "Algumas das tecnologias com as quais já trabalhei"
+    "technologies_work": "Algumas das tecnologias com as quais já trabalhei",
+    "access": "Accessar"
 }

@@ -4,13 +4,13 @@ import portalFilmes from "../../assets/portal-filmes.png";
 import sadfes from "../../assets/sadfes.png";
 import portfolio from "../../assets/portfolio.png";
 import { useTranslation } from "react-i18next";
+import type appType from "../../public/locales/pt/app.json";
 
 interface Project {
-    name: string;
-    description: string;
     link: string;
     image: string;
     github: string;
+    key: keyof typeof appType.projectsSection;
 }
 
 export default function Projects() {
@@ -18,33 +18,25 @@ export default function Projects() {
 
     const projects: Project[] = [
         {
-            name: t("projectsSection.athletesMonitoring"),
-            description:
-                "Demonstração de um sistema de gerenciamento de atletas desenvolvido para um cliente real. Desenvolvido em React, utilizando as bibliotecas react-router-dom e react-hook-form, com banco de dados e autenticação do Firebase",
+            key: "athletesMonitoring",
             link: "https://tis4-demo.web.app/",
             image: sadfes,
             github: "https://github.com/leticiafraga/tis4-demo",
         },
         {
-            name: t("projectsSection.moviesPortal"),
-            description:
-                "Site de visualização de filmes responsivo que consome a API The Movie DB",
+            key: "moviesPortal",
             link: "https://leticiafraga.github.io/portal-filmes/index.html",
             image: portalFilmes,
             github: "https://github.com/leticiafraga/portal-filmes",
         },
         {
-            name: t("projectsSection.portfolio"),
-            description:
-                "Meu portfolio em React, onde, além de me apresentar, posso praticar o uso do React. Ainda não está finalizado. Utiliza as seguintes tecnologias: Typescript, Sass, Vite, Bootstrap",
+            key: "portfolio",
             link: "https://studiozenpilates.web.app/",
             image: portfolio,
             github: "https://github.com/leticiafraga/portfolio",
         },
         {
-            name: t("projectsSection.pilates"),
-            description:
-                "Site institucional de um estúdio de pilates que utiliza com Bootstrap",
+            key: "pilates",
             link: "https://studiozenpilates.web.app/",
             image: pilates,
             github: "https://github.com/leticiafraga/studio-pilates",
@@ -71,21 +63,23 @@ export default function Projects() {
                                     <img src={p.image} />
                                 </div>
                                 <div className={style.nameContainer}>
-                                    <h3>{p.name}</h3>
+                                    <h3>
+                                        {t(`projectsSection.${p.key}.title`)}
+                                    </h3>
                                 </div>
                             </div>
                             <div className={style.flipCardBack}>
-                                <p>{p.description}</p>
+                                <p>{t(`projectsSection.${p.key}.desc`)}</p>
                                 <div className="row w-100">
                                     <div className="col-6">
-                                        <button className=" w-100 btn btn-primary m-2">
+                                        <button className=" w-100 btn btn-secondary m-2">
                                             <a target="_blank" href={p.link}>
-                                                Acessar
+                                                {t("access")}
                                             </a>
                                         </button>
                                     </div>
                                     <div className="col-6">
-                                        <button className="w-100 btn btn-primary m-2">
+                                        <button className="w-100 btn btn-secondary m-2">
                                             <a target="_blank" href={p.github}>
                                                 Github
                                             </a>
