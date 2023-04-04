@@ -48,6 +48,7 @@ function App() {
                 </div>
             </div>
             <Projects />
+            <Technologies />
             <Resume />
             <Contact />
         </div>

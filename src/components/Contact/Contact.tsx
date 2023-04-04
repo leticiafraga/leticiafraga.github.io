@@ -3,6 +3,7 @@ import { faCircle, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ReactElement } from "react";
 import style from "./Contact.module.scss";
+import { useTranslation } from "react-i18next";
 
 interface SocialLink {
     icon: ReactElement;
@@ -40,6 +41,8 @@ const socials: SocialLink[] = [
 ];
 
 export default function Contact() {
+    const { t } = useTranslation("app");
+
     return (
         <section
             className={
@@ -48,7 +51,7 @@ export default function Contact() {
             id="contact"
         >
             <div className="col-12 col-md text-center">
-                <h2>Contato</h2>
+                <h2>{t("contact")}</h2>
             </div>
             <div className="col-12 col-md-7">
                 {socials.map((item) => (

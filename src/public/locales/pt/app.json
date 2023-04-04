@@ -1,6 +1,13 @@
 {
     "title": "Letícia Fraga",
     "projects": "Projetos",
+    "projectsSection": {
+        "athletesMonitoring": "Gerenciamento de histórico de atletas",
+        "moviesPortal": "Portal de filmes",
+        "portfolio": "Portfolio",
+        "pilates": "Studio Zen Pilates"
+    },
     "resume": "Currículo",
-    "contact": "Contato"
+    "contact": "Contato",
+    "technologies_work": "Algumas das tecnologias com as quais já trabalhei"
 }

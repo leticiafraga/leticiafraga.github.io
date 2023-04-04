@@ -18,7 +18,7 @@ export default function Projects() {
 
     const projects: Project[] = [
         {
-            name: "Gerenciamento de histórico de atletas",
+            name: t("projectsSection.athletesMonitoring"),
             description:
                 "Demonstração de um sistema de gerenciamento de atletas desenvolvido para um cliente real. Desenvolvido em React, utilizando as bibliotecas react-router-dom e react-hook-form, com banco de dados e autenticação do Firebase",
             link: "https://tis4-demo.web.app/",
@@ -26,7 +26,7 @@ export default function Projects() {
             github: "https://github.com/leticiafraga/tis4-demo",
         },
         {
-            name: "Portal de filmes",
+            name: t("projectsSection.moviesPortal"),
             description:
                 "Site de visualização de filmes responsivo que consome a API The Movie DB",
             link: "https://leticiafraga.github.io/portal-filmes/index.html",
@@ -34,41 +34,44 @@ export default function Projects() {
             github: "https://github.com/leticiafraga/portal-filmes",
         },
         {
-            name: "Portfolio",
+            name: t("projectsSection.portfolio"),
             description:
-                "Meu portfolio em React, onde, além de me apresentar, posso praticar o uso do React. Utiliza as seguintes tecnologias: Typescript, Sass, Vite, Bootstrap, FontAwesome",
+                "Meu portfolio em React, onde, além de me apresentar, posso praticar o uso do React. Ainda não está finalizado. Utiliza as seguintes tecnologias: Typescript, Sass, Vite, Bootstrap",
             link: "https://studiozenpilates.web.app/",
             image: portfolio,
             github: "https://github.com/leticiafraga/portfolio",
         },
         {
-            name: "Studio Zen Pilates",
-            description: "Site de um estúdio de pilates",
+            name: t("projectsSection.pilates"),
+            description:
+                "Site institucional de um estúdio de pilates que utiliza com Bootstrap",
             link: "https://studiozenpilates.web.app/",
             image: pilates,
             github: "https://github.com/leticiafraga/studio-pilates",
         },
     ];
-    
+
     return (
         <section
             className={
                 style.projects +
-                " row align-items-center justify-content-center"
+                " row align-items-center justify-content-center px-5"
             }
             id="projects"
         >
-            <div className="col-12 col-md-3 offset-md-1">
+            <div className="col offset-lg-1 mb-5 mb-lg-0">
                 <h2>{t("projects")}</h2>
             </div>
-            <div className={"col-12 col-md-7 " + style.wrapper}>
+            <div className={"col-12 col-lg-7 " + style.wrapper}>
                 {projects.map((p) => (
                     <div className={style.flipCard}>
                         <div className={style.flipCardInner}>
                             <div className={style.flipCardFront}>
-                                <h3>{p.name}</h3>
                                 <div className={style.imgContainer}>
                                     <img src={p.image} />
+                                </div>
+                                <div className={style.nameContainer}>
+                                    <h3>{p.name}</h3>
                                 </div>
                             </div>
                             <div className={style.flipCardBack}>

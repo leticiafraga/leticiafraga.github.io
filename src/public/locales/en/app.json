@@ -1,6 +1,13 @@
 {
     "title": "Letícia Fraga",
     "projects": "Projects",
+    "projectsSection": {
+        "athletesMonitoring": "Athlete history monitoring",
+        "moviesPortal": "Movies Portal",
+        "portfolio": "Portfolio",
+        "pilates": "Pilates Studio"
+    },
     "resume": "Resume",
-    "contact": "Contact"
+    "contact": "Contact",
+    "technologies_work": "Some of the technologies I have worked with"
 }

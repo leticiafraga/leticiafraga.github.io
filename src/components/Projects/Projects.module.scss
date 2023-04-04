@@ -10,6 +10,12 @@
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2em;
     grid-row-gap: 2em;
+
+    @media (max-width: 992px) {
+        & {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
 }
 
 .flipCard {
@@ -53,8 +59,7 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border-radius: 15px;
-    padding: 20px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,14 +69,23 @@
 .flipCardFront {
     background-color: #ddd;
     color: black;
+    overflow: hidden;
+    .nameContainer {
+        padding: 15px;
+        min-height: calc(3rem + 40px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .flipCardBack {
+    padding: 20px;
     background-color: #888;
     color: white;
     transform: rotateY(180deg);
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
