@@ -20,6 +20,21 @@
         }
     },
     "resume": "Resume",
+    "resumeSection": {
+        "experience": "Experience",
+        "mindsInternship": "Software Deveploment Internship, Minds Digital",
+        "cadastraInternship": "SEO and CRO Internship, Cadastra",
+        "calculusTutor": "Calculus Tutor, PUC Minas",
+        "education": "Education",
+        "softwareEngineering": "Software Engineering, PUC Minas, in progress",
+        "softwareEngineeringDetails": "2021 - 2024",
+        "aerospaceEngineering": "Aerospace Engineering, UFMG, unfinished",
+        "aerospaceEngineeringDetails": "2019 - 2020 (unfinished)",
+        "languages": "Languages",
+        "english": "English",
+        "spanish": "Spanish",
+        "french": "French"
+    },
     "contact": "Contact",
     "technologies_work": "Some of the technologies I have worked with",
     "access": "Access"

@@ -14,6 +14,20 @@
     }
 }
 
+@keyframes showBorderMob {
+    0% {
+        border-image: linear-gradient(
+                to right,
+                transparent 70%,
+                transparent 90%
+            )
+            100% 1;
+    }
+    100% {
+        border-image: linear-gradient(to right, $bg 70%, transparent 90%) 50% 1;
+    }
+}
+
 .main {
     height: 100vh;
     & > div {
@@ -23,14 +37,14 @@
         border-image: linear-gradient(to right, $bg 40%, transparent 60%) 100% 1;
     }
     h1 {
-        font-size: 5vw;
         margin-bottom: 3vh;
     }
 
     @media (max-width: 992px) {
-        .container {
-            border-image: linear-gradient(to right, $bg 60%, transparent 80%)
+        & > div {
+            border-image: linear-gradient(to right, $bg 70%, transparent 90%)
                 100% 1;
+            animation: 2s ease-out 1s 1 showBorderMob;
         }
     }
 }

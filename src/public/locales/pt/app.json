@@ -20,7 +20,22 @@
         }
     },
     "resume": "Currículo",
+    "resumeSection": {
+        "experience": "Experiência",
+        "mindsInternship": "Estágio em Desenvolvimento de Software, Minds Digital",
+        "cadastraInternship": "Estágio em SEO e CRO, Cadastra",
+        "calculusTutor": "Monitora de Cálculo I",
+        "education": "Formação",
+        "softwareEngineering": "Engenharia de Software, PUC Minas, cursando",
+        "softwareEngineeringDetails": "2021 - 2024",
+        "aerospaceEngineering": "Engenharia Aeroespacial, UFMG, cursado até o 4° período",
+        "aerospaceEngineeringDetails": "2019 - 2020 (curso não finalizado)",
+        "languages": "Idiomas",
+        "english": "Inglês",
+        "spanish": "Espanhol",
+        "french": "Francês"
+    },
     "contact": "Contato",
     "technologies_work": "Algumas das tecnologias com as quais já trabalhei",
-    "access": "Accessar"
+    "access": "Acessar"
 }

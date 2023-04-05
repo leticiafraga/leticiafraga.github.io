@@ -20,8 +20,8 @@ export default function Header(props: Props) {
 
     return (
         <nav className={style.navbar + " navbar navbar-expand"}>
-            <div className="container">
-                <a className="navbar-brand" href="#main">
+            <div className="container justify-content-end justify-content-md-between">
+                <a className="navbar-brand d-none d-md-inline" href="#main">
                     Letícia Fraga
                 </a>
                 <div id="navbarText">

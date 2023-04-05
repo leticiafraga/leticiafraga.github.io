@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import style from "./Resume.module.scss";
 
 export default function Resume() {
+    const { t } = useTranslation("app");
+
     return (
         <section
             className={
@@ -11,28 +14,33 @@ export default function Resume() {
         >
             <div className="col-1" />
             <div className="col-12 col-md text-center">
-                <h2>Currículo</h2>
+                <h2>{t("resume")}</h2>
             </div>
-            <div className="col-12 col-md-4 offset-md-1">
-                <h3>Experiência</h3>
+            <div className="col-12 px-4 px-md-0 col-md-4 offset-md-1">
+                <h3>{t("resumeSection.experience")}</h3>
                 <ul>
-                    <li>
-                        Estágio em Desenvolvimento de Software, Minds Digital
-                    </li>
-                    <li>Estágio em SEO e CRO, Cadastra</li>
+                    <li>{t("resumeSection.mindsInternship")}</li>
+                    <li>{t("resumeSection.cadastraInternship")}</li>
+                    <li>{t("resumeSection.calculusTutor")}</li>
                 </ul>
-                <h3>Formação</h3>
+                <h3>{t("resumeSection.education")}</h3>
                 <ul>
-                    <li>Engenharia de Software, PUC Minas, cursando</li>
-                    <li>
-                        Engenharia Aeroespacial, UFMG, cursado até o 4º período
-                    </li>
+                    <li>{t("resumeSection.softwareEngineering")}</li>
+                    <ul>
+                        <li>{t("resumeSection.softwareEngineeringDetails")}</li>
+                    </ul>
+                    <li>{t("resumeSection.aerospaceEngineering")}</li>
+                    <ul>
+                        <li>
+                            {t("resumeSection.aerospaceEngineeringDetails")}
+                        </li>
+                    </ul>
                 </ul>
-                <h3>Idiomas</h3>
+                <h3>{t("resumeSection.languages")}</h3>
                 <ul>
-                    <li>Inglês, B2</li>
-                    <li>Espanhol, B1</li>
-                    <li>Francês, A2</li>
+                    <li>{t("resumeSection.english")}, B2</li>
+                    <li>{t("resumeSection.spanish")}, B1</li>
+                    <li>{t("resumeSection.french")}, A2</li>
                 </ul>
             </div>
         </section>

@@ -29,10 +29,10 @@ function App() {
                 id="main"
                 className={
                     style.main +
-                    " row align-items-center justify-content-center"
+                    " row align-items-center justify-content-center px-4 px-md-0"
                 }
             >
-                <div className="col-10 offset-1">
+                <div className="col-md-10 offset-md-1">
                     <h1>{t("title")}</h1>
 
                     {sections.map((item, index) => (

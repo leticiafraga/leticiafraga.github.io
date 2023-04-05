@@ -81,7 +81,7 @@ export default function Projects() {
                                     <div className="col-6">
                                         <button className="w-100 btn btn-secondary m-2">
                                             <a target="_blank" href={p.github}>
-                                                Github
+                                                GitHub
                                             </a>
                                         </button>
                                     </div>

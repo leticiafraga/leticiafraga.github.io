@@ -1,4 +1,11 @@
 .resume {
-    height: 100vh;
-    padding-top: 9vh;
+    padding: 9vh 0;
+    min-height: 100vh;
+
+    ul {
+        list-style-type: none;
+        ul {
+            font-size: 0.8rem;
+        }
+    }
 }
