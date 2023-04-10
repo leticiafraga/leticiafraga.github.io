@@ -35,6 +35,7 @@ export default function Technologies() {
                     {techs.map((item) => (
                         <div
                             className={style.badgeContainer + " col-4 col-lg-3"}
+                            key={item.name}
                         >
                             <span className={style.badge}>
                                 <img src={item.icon} />

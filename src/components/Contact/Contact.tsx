@@ -55,7 +55,7 @@ export default function Contact() {
             </div>
             <div className="col-12 col-md-7">
                 {socials.map((item) => (
-                    <a href={item.link}>
+                    <a href={item.link} key={item.link}>
                         <span className="ms-4 fa-layers fa-4x">
                             {item.bg}
                             {item.icon}

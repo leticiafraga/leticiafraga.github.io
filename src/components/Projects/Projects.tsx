@@ -31,9 +31,9 @@ export default function Projects() {
         },
         {
             key: "portfolio",
-            link: "https://studiozenpilates.web.app/",
+            link: "https://leticiafraga.github.io/",
             image: portfolio,
-            github: "https://github.com/leticiafraga/portfolio",
+            github: "https://github.com/leticiafraga/leticiafraga.github.io",
         },
         {
             key: "pilates",
@@ -56,7 +56,7 @@ export default function Projects() {
             </div>
             <div className={"col-12 col-lg-7 " + style.wrapper}>
                 {projects.map((p) => (
-                    <div className={style.flipCard}>
+                    <div className={style.flipCard} key={p.key}>
                         <div className={style.flipCardInner}>
                             <div className={style.flipCardFront}>
                                 <div className={style.imgContainer}>

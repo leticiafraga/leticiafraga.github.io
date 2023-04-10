@@ -39,7 +39,7 @@ function App() {
                     </p>
 
                     {sections.map((item, index) => (
-                        <p>
+                        <p key={item.text}>
                             <a
                                 href={`#${item.link}`}
                                 onClick={() => setActive(index)}
