@@ -8,24 +8,32 @@
     }
 }
 
+.badgeContainer {
+    padding: 12px;
+}
+
 .badge {
     padding: 12px;
-    background-color: #ccc;
+    background-color: #eaeaea;
     color: #333;
-    margin: 10px;
     border-radius: 5px;
-    font-size: 1rem;
-    min-width: 100px;
+    min-width: 110px;
     display: flex;
     flex-direction: column;
-
     align-items: center;
-
+    transition: box-shadow 0.5s;
+    
     img {
         height: 70px;
     }
-
+    
     span {
+        font-size: 1rem;
         margin-top: 1rem;
+        font-weight: 500;
+    }
+
+    &:hover {
+        box-shadow: 0 4px 10px 4px #aaa;
     }
 }

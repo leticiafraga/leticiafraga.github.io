@@ -34,6 +34,9 @@ function App() {
             >
                 <div className="col-md-10 offset-md-1">
                     <h1>{t("title")}</h1>
+                    <p>
+                        <strong>{t("softwareDeveloper")}</strong>
+                    </p>
 
                     {sections.map((item, index) => (
                         <p>
