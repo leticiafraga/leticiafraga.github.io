@@ -1,8 +1,8 @@
 import style from "./Projects.module.scss";
-import pilates from "../../assets/studio-pilates.png";
-import portalFilmes from "../../assets/portal-filmes.png";
-import sadfes from "../../assets/sadfes.png";
-import portfolio from "../../assets/portfolio.png";
+import pilates from "../../assets/studio-pilates.webp";
+import portalFilmes from "../../assets/portal-filmes.webp";
+import sadfes from "../../assets/sadfes.webp";
+import portfolio from "../../assets/portfolio.webp";
 import { useTranslation } from "react-i18next";
 import type appType from "../../public/locales/pt/app.json";
 
@@ -60,7 +60,14 @@ export default function Projects() {
                         <div className={style.flipCardInner}>
                             <div className={style.flipCardFront}>
                                 <div className={style.imgContainer}>
-                                    <img src={p.image} />
+                                    <img
+                                        src={p.image}
+                                        alt={
+                                            t(
+                                                `projectsSection.${p.key}.title`
+                                            ) as string
+                                        }
+                                    />
                                 </div>
                                 <div className={style.nameContainer}>
                                     <h3>
