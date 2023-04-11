@@ -3,9 +3,19 @@
     min-height: 100vh;
 
     ul {
-        list-style-type: none;
         ul {
             font-size: 0.8rem;
+            list-style-type: none;
         }
+        li {
+            &::marker {
+                color: #aaa;
+                transition: all 0.5s;
+            }
+            &:hover::marker {
+                color: #222;
+            }
+        }
+        padding-left: 1.8rem;
     }
 }

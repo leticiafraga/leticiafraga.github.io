@@ -4,4 +4,11 @@
     background-color: $bg;
     height: 100vh;
     padding-top: 9vh;
+
+    a {
+        transition: color 0.5s;
+        &:hover {
+            color: #444;
+        }
+    }
 }

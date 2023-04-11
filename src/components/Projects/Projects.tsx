@@ -51,7 +51,7 @@ export default function Projects() {
             }
             id="projects"
         >
-            <div className="col-12 col-md text-center mb-5 mb-lg-0">
+            <div className="col-12 col-md mb-5 mb-lg-0 d-flex justify-content-center">
                 <h2>{t("projects")}</h2>
             </div>
             <div className={"col-12 col-lg-7 " + style.wrapper}>

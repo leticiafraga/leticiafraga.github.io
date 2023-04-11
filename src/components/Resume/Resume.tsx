@@ -13,7 +13,7 @@ export default function Resume() {
             id="resume"
         >
             <div className="col-1" />
-            <div className="col-12 col-md text-center">
+            <div className="col-12 col-md d-flex justify-content-center">
                 <h2>{t("resume")}</h2>
             </div>
             <div className="col-12 px-4 px-md-0 col-md-4 offset-md-1">

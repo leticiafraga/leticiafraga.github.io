@@ -50,7 +50,7 @@ export default function Contact() {
             }
             id="contact"
         >
-            <div className="col-12 col-md text-center">
+            <div className="col-12 col-md d-flex justify-content-center">
                 <h2>{t("contact")}</h2>
             </div>
             <div className="col-12 col-md-7">

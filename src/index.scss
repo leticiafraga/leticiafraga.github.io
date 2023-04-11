@@ -26,6 +26,19 @@ h2 {
     font-size: calc(1.9rem + 4vw);
 }
 
+h2,
+h3 {
+    box-shadow: inset 0 0 0 0 #ccc;
+    color: #555;
+    margin: 0 -0.25rem;
+    padding: 1rem 2rem;
+    transition: all 1s ease-in-out;
+
+    &:hover {
+        box-shadow: inset 100vw 0 0 0 #ccc;
+    }
+}
+
 h3 {
     font-size: 1.5rem;
 }
