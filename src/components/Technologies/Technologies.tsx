@@ -29,10 +29,10 @@ export default function Technologies() {
 
     return (
         <section className={style.skills + " row"}>
-            <div className="row d-flex justify-content-center">
-                <h3>{t("technologies_work")}</h3>
+            <div className="col-12 d-flex justify-content-center">
+                <h3 className="text-center">{t("technologies_work")}</h3>
             </div>
-            <div className="row">
+            <div className="col-12 d-flex">
                 <div className="col-md-6 offset-md-3 col-12 d-flex">
                     <div className="row justify-content-center">
                         {techs.map((item) => (

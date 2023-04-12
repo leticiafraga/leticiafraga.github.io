@@ -10,12 +10,14 @@
             content: "";
             position: absolute;
             left: 0;
-            top: 0;
             width: 0;
             border-bottom: solid 20px #555;
             border-image: linear-gradient(to right, $bg 40%, transparent 70%)
                 100% 1;
             animation: border_anim 1s linear forwards;
+        }
+        &::before {
+            top: 0;
         }
         &:after {
             bottom: 0;
