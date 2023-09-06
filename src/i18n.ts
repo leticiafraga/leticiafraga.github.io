@@ -1,11 +1,12 @@
-import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
-import app from "./public/locales/pt/app.json";
-import app2 from "./public/locales/en/app.json";
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import app from './public/locales/pt/app.json';
+import en from './public/locales/en/app.json';
+import fr from './public/locales/fr/app.json';
 
-declare module "react-i18next" {
+declare module 'react-i18next' {
     interface CustomTypeOptions {
-        defaultNS: "app";
+        defaultNS: 'app';
         resources: {
             app: typeof app;
         };
@@ -13,14 +14,17 @@ declare module "react-i18next" {
 }
 
 i18n.use(initReactI18next).init({
-    fallbackLng: "pt",
+    fallbackLng: 'pt',
     debug: true,
     resources: {
         pt: {
             app,
         },
         en: {
-            app: app2,
+            app: en,
+        },
+        fr: {
+            app: fr,
         },
     },
 });

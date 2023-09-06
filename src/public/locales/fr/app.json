@@ -1,0 +1,42 @@
+{
+    "title": "Letícia Fraga",
+    "softwareDeveloper": "Développeuse logiciel",
+    "projects": "Projets",
+    "projectsSection": {
+        "athletesMonitoring": {
+            "title": "Suivi de l'historique des athlètes",
+            "desc": "Démonstration d'un système de suivi des athlètes développé pour un client réel. Développé en React, utilisant les bibliothèques react-router-dom et react-hook-form, avec une base de données Firebase et une authentification."
+        },
+        "moviesPortal": {
+            "title": "Portail de films",
+            "desc": "Site Web d'informations sur les films responsive utilisant l'API The Movie DB."
+        },
+        "portfolio": {
+            "title": "Portfolio",
+            "desc": "Mon portfolio, où je peux me présenter en plus de pratiquer React. Il n'est pas encore terminé. Utilise les technologies suivantes : TypeScript, Sass, Vite et Bootstrap."
+        },
+        "pilates": {
+            "title": "Studio de Pilates",
+            "desc": "Site Web institutionnel d'un studio de Pilates utilisant Bootstrap."
+        }
+    },
+    "resume": "CV",
+    "resumeSection": {
+        "experience": "Expérience",
+        "minds": "Développeuse logiciel, Minds Digital",
+        "cadastraInternship": "Stage en SEO et CRO, Cadastra",
+        "calculusTutor": "Tuteur en Calcul, PUC Minas",
+        "education": "Formation",
+        "softwareEngineering": "Ingénierie logicielle, PUC Minas, en cours",
+        "softwareEngineeringDetails": "2021 - 2024",
+        "aerospaceEngineering": "Ingénierie Aérospatiale, UFMG, inachevée",
+        "aerospaceEngineeringDetails": "2019 - 2020 (inachevée)",
+        "languages": "Langues",
+        "english": "Anglais",
+        "spanish": "Espagnol",
+        "french": "Français"
+    },
+    "contact": "Contact",
+    "technologies_work": "Certaines des technologies avec lesquelles j'ai travaillé",
+    "access": "Accéder"
+}

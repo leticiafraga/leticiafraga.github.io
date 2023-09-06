@@ -12,11 +12,17 @@ interface NavLink {
     text: string;
 }
 
+const languages = ['pt', 'en', 'fr'];
+
 export default function Header(props: Props) {
     const { i18n } = useTranslation('app');
 
     const changeLanguage = async (lng: string) => i18n.changeLanguage(lng);
-    const toggleLanguage = i18n.language == 'pt' ? 'en' : 'pt';
+    const language = i18n.language;
+    const index = (languages.findIndex((i) => i === language) + 1) % 3;
+    const newLang = languages[index];
+
+    console.log('index', index);
 
     return (
         <nav className={style.navbar + ' navbar navbar-expand'}>
@@ -49,9 +55,9 @@ export default function Header(props: Props) {
                                     'btn btn-secondary ' + style.changeLanguage
                                 }
                                 type="button"
-                                onClick={() => changeLanguage(toggleLanguage)}
+                                onClick={() => changeLanguage(newLang)}
                             >
-                                {toggleLanguage.toUpperCase()}
+                                {language.toUpperCase()}
                             </button>
                         </li>
                     </ul>
