@@ -13,7 +13,7 @@
         },
         "portfolio": {
             "title": "Portfolio",
-            "desc": "Meu portfolio em React, onde, além de me apresentar, posso praticar o uso do React. Ainda não está finalizado. Utiliza as seguintes tecnologias: Typescript, Sass, Vite, Bootstrap"
+            "desc": "Meu portfolio em React, onde, além de me apresentar, posso praticar o uso do React. Utiliza as seguintes tecnologias: Typescript, Sass, Vite, Bootstrap"
         },
         "pilates": {
             "title": "Studio Zen Pilates",

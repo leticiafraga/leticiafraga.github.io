@@ -13,7 +13,7 @@
         },
         "portfolio": {
             "title": "Portfolio",
-            "desc": "Mon portfolio, où je peux me présenter en plus de pratiquer React. Il n'est pas encore terminé. Utilise les technologies suivantes : TypeScript, Sass, Vite et Bootstrap."
+            "desc": "Mon portfolio, où je peux me présenter en plus de pratiquer React. Utilise les technologies suivantes : TypeScript, Sass, Vite et Bootstrap."
         },
         "pilates": {
             "title": "Studio de Pilates",
