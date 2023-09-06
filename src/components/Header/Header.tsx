@@ -1,5 +1,5 @@
-import { useTranslation } from "react-i18next";
-import style from "./Header.module.scss";
+import { useTranslation } from 'react-i18next';
+import style from './Header.module.scss';
 
 interface Props {
     options: NavLink[];
@@ -13,15 +13,15 @@ interface NavLink {
 }
 
 export default function Header(props: Props) {
-    const { i18n } = useTranslation("app");
+    const { i18n } = useTranslation('app');
 
     const changeLanguage = async (lng: string) => i18n.changeLanguage(lng);
-    const toggleLanguage = i18n.language == "pt" ? "en" : "pt";
+    const toggleLanguage = i18n.language == 'pt' ? 'en' : 'pt';
 
     return (
-        <nav className={style.navbar + " navbar navbar-expand"}>
+        <nav className={style.navbar + ' navbar navbar-expand'}>
             <div className="container justify-content-end justify-content-md-between">
-                <a className="navbar-brand d-none d-md-inline" href="#main">
+                <a className="d-none d-md-inline" href="#main">
                     Letícia Fraga
                 </a>
                 <div id="navbarText">
@@ -30,10 +30,10 @@ export default function Header(props: Props) {
                             <li className="nav-item" key={index}>
                                 <a
                                     className={
-                                        "nav-link " +
+                                        'nav-link ' +
                                         (index == props.activeSection
-                                            ? "active"
-                                            : "")
+                                            ? 'active'
+                                            : '')
                                     }
                                     aria-current="page"
                                     href={`#${item.link}`}
@@ -46,7 +46,7 @@ export default function Header(props: Props) {
                         <li className="d-flex align-items-center justify-content-center">
                             <button
                                 className={
-                                    "btn btn-secondary " + style.changeLanguage
+                                    'btn btn-secondary ' + style.changeLanguage
                                 }
                                 type="button"
                                 onClick={() => changeLanguage(toggleLanguage)}

@@ -1,14 +1,14 @@
-@import "../../variables";
+@import '../../variables';
 
 .contact {
-    background-color: $bg;
+    background-color: $bg-lighter;
     height: 100vh;
     padding-top: 9vh;
 
     a {
         transition: color 0.5s;
         &:hover {
-            color: #444;
+            color: #999;
         }
     }
 }

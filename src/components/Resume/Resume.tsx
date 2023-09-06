@@ -19,7 +19,7 @@ export default function Resume() {
             <div className="col-12 px-4 px-md-0 col-md-4 offset-md-1">
                 <h3>{t("resumeSection.experience")}</h3>
                 <ul>
-                    <li>{t("resumeSection.mindsInternship")}</li>
+                    <li>{t("resumeSection.minds")}</li>
                     <li>{t("resumeSection.cadastraInternship")}</li>
                     <li>{t("resumeSection.calculusTutor")}</li>
                 </ul>

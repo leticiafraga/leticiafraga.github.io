@@ -19,7 +19,7 @@ const socials: SocialLink[] = [
     {
         icon: (
             <FontAwesomeIcon
-                color="#aaa"
+                color="#333"
                 icon={faLinkedinIn}
                 transform="shrink-5"
             />
@@ -30,7 +30,7 @@ const socials: SocialLink[] = [
     {
         icon: (
             <FontAwesomeIcon
-                color="#aaa"
+                color="#333"
                 icon={faEnvelope}
                 transform="shrink-5"
             />

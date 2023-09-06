@@ -1,4 +1,4 @@
-@import "../../variables";
+@import '../../variables';
 
 .projects {
     background-color: $bg;
@@ -23,6 +23,7 @@
     perspective: 1000px;
     height: 300px;
     width: 100%;
+
     .imgContainer {
         display: flex;
         overflow: hidden;
@@ -69,28 +70,45 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 8px 8px 4px #444;
 }
 
 .flipCardFront {
-    background-color: #ddd;
-    color: black;
+    background-color: $pink;
+    color: #eee;
     overflow: hidden;
+
     .nameContainer {
         padding: 15px;
         min-height: calc(3rem + 40px);
         display: flex;
         align-items: center;
         justify-content: center;
+
+        h3 {
+            box-shadow: none;
+        }
     }
 }
 
 .flipCardBack {
     padding: 20px;
-    background-color: #888;
+    background-color: #353535;
     color: white;
     transform: rotateY(180deg);
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
+
+    button {
+        background-color: #555;
+        border: none;
+        a {
+            color: white !important;
+        }
+        &:hover {
+            background-color: #5f5f5f;
+        }
+    }
 }

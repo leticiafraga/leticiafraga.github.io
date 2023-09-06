@@ -79,7 +79,7 @@ export default function Projects() {
                                 <p>{t(`projectsSection.${p.key}.desc`)}</p>
                                 <div className="row w-100">
                                     <div className="col-6">
-                                        <button className=" w-100 btn btn-secondary m-2">
+                                        <button className="w-100 btn btn-secondary m-2">
                                             <a target="_blank" href={p.link}>
                                                 {t("access")}
                                             </a>
