@@ -18,16 +18,20 @@ export default function Resume() {
             </div>
             <div className="col-12 px-4 px-md-0 col-md-4 offset-md-1">
                 <h3>{t("resumeSection.experience")}</h3>
-                <ul>
+                <ul className={style.externalUl}>
                     <li>{t("resumeSection.minds")}</li>
                     <li>{t("resumeSection.cadastraInternship")}</li>
                     <li>{t("resumeSection.calculusTutor")}</li>
                 </ul>
                 <h3>{t("resumeSection.education")}</h3>
-                <ul>
+                <ul className={style.externalUl}>
                     <li>{t("resumeSection.softwareEngineering")}</li>
                     <ul>
                         <li>{t("resumeSection.softwareEngineeringDetails")}</li>
+                    </ul>
+                    <li>{t("resumeSection.exchange")}</li>
+                    <ul>
+                        <li>{t("resumeSection.exchangeDetails")}</li>
                     </ul>
                     <li>{t("resumeSection.aerospaceEngineering")}</li>
                     <ul>
@@ -37,10 +41,11 @@ export default function Resume() {
                     </ul>
                 </ul>
                 <h3>{t("resumeSection.languages")}</h3>
-                <ul>
-                    <li>{t("resumeSection.english")}, B2</li>
+                <ul className={style.externalUl}>
+                    <li>{t("resumeSection.english")}, C1</li>
+                    <li>{t("resumeSection.french")}, B2</li>
                     <li>{t("resumeSection.spanish")}, B1</li>
-                    <li>{t("resumeSection.french")}, A2</li>
+                    <li>{t("resumeSection.portuguese")}, {t("resumeSection.native")}</li>
                 </ul>
             </div>
         </section>

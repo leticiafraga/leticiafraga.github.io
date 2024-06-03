@@ -3,9 +3,16 @@
 .skills {
     padding: 9vh 0;
     background-color: $bg-lighter;
+
     h3 {
         margin-bottom: 5vh;
         width: fit-content;
+        box-shadow: inset 0 0 0 0 $blue;
+        transition: all 1s ease-in-out;
+
+        &:hover {
+            box-shadow: inset 100vw 0 0 0 $blue;
+        }
     }
 }
 

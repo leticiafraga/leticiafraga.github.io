@@ -5,19 +5,19 @@
     "projectsSection": {
         "athletesMonitoring": {
             "title": "Athlete history monitoring",
-            "desc": "Demonstration of an athlete monitoring system developed for a real client. Developed in React, using react-router-dom and react-hook-form libraries, with Firebase database and authentication"
+            "desc": "Demonstration of an athlete monitoring system developed for a real client. Developed in React, using react-router-dom and react-hook-form libraries, with Firebase database and authentication."
         },
         "moviesPortal": {
             "title": "Movies Portal",
-            "desc": "Responsive movie information website that uses The Movie DB API"
+            "desc": "Responsive movie information website that uses The Movie DB API."
         },
         "portfolio": {
             "title": "Portfolio",
-            "desc": "My portfolio, where I can introduce myself in addition to practising React. Uses the following technologies: Typescript, Sass, Vite and Bootstrap"
+            "desc": "My portfolio, where I can introduce myself in addition to practising React. Uses the following technologies: TypeScript, Sass, Vite and Bootstrap."
         },
         "pilates": {
             "title": "Pilates Studio",
-            "desc": "Institutional website of a pilates studio that uses Bootstrap"
+            "desc": "Institutional website of a pilates studio that uses Bootstrap."
         }
     },
     "resume": "Resume",
@@ -29,12 +29,16 @@
         "education": "Education",
         "softwareEngineering": "Software Engineering, PUC Minas, in progress",
         "softwareEngineeringDetails": "2021 - 2024",
+        "exchange": "Study Abroad Program, EPITECH, France",
+        "exchangeDetails": "2023 - 2024",
         "aerospaceEngineering": "Aerospace Engineering, UFMG, unfinished",
         "aerospaceEngineeringDetails": "2019 - 2020 (unfinished)",
         "languages": "Languages",
         "english": "English",
         "spanish": "Spanish",
-        "french": "French"
+        "french": "French",
+        "portuguese": "Portuguese",
+        "native": "Native"
     },
     "contact": "Contact",
     "technologies_work": "Some of the technologies I have worked with",

@@ -44,6 +44,14 @@
         font-size: calc(1.3rem + 1.2vw);
         font-weight: 500;
     }
+
+    a {
+        font-size: calc(1rem + 0.6vw);
+
+        &:hover {
+            color: gray;
+        }
+    }
 }
 
 @keyframes border_anim {

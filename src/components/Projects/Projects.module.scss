@@ -3,6 +3,11 @@
 .projects {
     background-color: $bg;
     padding: 9vh 0;
+    @media (min-width: 1221px) {
+        & {
+            height: 100vh;
+        }
+    }
 }
 
 .wrapper {

@@ -5,19 +5,19 @@
     "projectsSection": {
         "athletesMonitoring": {
             "title": "Gerenciamento de histórico de atletas",
-            "desc": "Demonstração de um sistema de gerenciamento de atletas desenvolvido para um cliente real. Desenvolvido em React, utilizando as bibliotecas react-router-dom e react-hook-form, com banco de dados e autenticação do Firebase"
+            "desc": "Demonstração de um sistema de gerenciamento de atletas desenvolvido para um cliente real. Desenvolvido em React, utilizando as bibliotecas react-router-dom e react-hook-form, com banco de dados e autenticação do Firebase."
         },
         "moviesPortal": {
             "title": "Portal de filmes",
-            "desc": "Site de visualização de filmes responsivo que consome a API The Movie DB"
+            "desc": "Site de visualização de filmes responsivo que consome a API The Movie DB."
         },
         "portfolio": {
             "title": "Portfolio",
-            "desc": "Meu portfolio em React, onde, além de me apresentar, posso praticar o uso do React. Utiliza as seguintes tecnologias: Typescript, Sass, Vite, Bootstrap"
+            "desc": "Meu portfolio em React, onde, além de me apresentar, posso praticar o uso do React. Utiliza as seguintes tecnologias: TypeScript, Sass, Vite e Bootstrap."
         },
         "pilates": {
             "title": "Studio Zen Pilates",
-            "desc": "Site institucional de um estúdio de pilates que utiliza com Bootstrap"
+            "desc": "Site institucional de um estúdio de pilates que utiliza Bootstrap."
         }
     },
     "resume": "Currículo",
@@ -29,12 +29,16 @@
         "education": "Formação",
         "softwareEngineering": "Engenharia de Software, PUC Minas, cursando",
         "softwareEngineeringDetails": "2021 - 2024",
+        "exchange": "Intercâmbio, EPITECH, França",
+        "exchangeDetails": "2023 - 2024",
         "aerospaceEngineering": "Engenharia Aeroespacial, UFMG, cursado até o 4° período",
         "aerospaceEngineeringDetails": "2019 - 2020 (curso não finalizado)",
         "languages": "Idiomas",
         "english": "Inglês",
         "spanish": "Espanhol",
-        "french": "Francês"
+        "french": "Francês",
+        "portuguese": "Português",
+        "native": "Língua materna"
     },
     "contact": "Contato",
     "technologies_work": "Algumas das tecnologias com as quais já trabalhei",

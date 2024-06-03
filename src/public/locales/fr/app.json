@@ -1,6 +1,6 @@
 {
     "title": "Letícia Fraga",
-    "softwareDeveloper": "Développeuse logiciel",
+    "softwareDeveloper": "Développeur logiciel",
     "projects": "Projets",
     "projectsSection": {
         "athletesMonitoring": {
@@ -9,7 +9,7 @@
         },
         "moviesPortal": {
             "title": "Portail de films",
-            "desc": "Site Web d'informations sur les films responsive utilisant l'API The Movie DB."
+            "desc": "Site web d'informations sur les films responsive utilisant l'API The Movie DB."
         },
         "portfolio": {
             "title": "Portfolio",
@@ -17,24 +17,28 @@
         },
         "pilates": {
             "title": "Studio de Pilates",
-            "desc": "Site Web institutionnel d'un studio de Pilates utilisant Bootstrap."
+            "desc": "Site web institutionnel d'un studio de Pilates utilisant Bootstrap."
         }
     },
     "resume": "CV",
     "resumeSection": {
-        "experience": "Expérience",
+        "experience": "Expériences professionnelles",
         "minds": "Développeuse logiciel, Minds Digital",
         "cadastraInternship": "Stage en SEO et CRO, Cadastra",
-        "calculusTutor": "Tuteur en Calcul, PUC Minas",
+        "calculusTutor": "Tutrice en Calcul, PUC Minas",
         "education": "Formation",
         "softwareEngineering": "Ingénierie logicielle, PUC Minas, en cours",
         "softwareEngineeringDetails": "2021 - 2024",
-        "aerospaceEngineering": "Ingénierie Aérospatiale, UFMG, inachevée",
+        "exchange": "Année scolaire à l'étranger, EPITECH, France",
+        "exchangeDetails": "2023 - 2024",
+        "aerospaceEngineering": "Ingénierie aérospatiale, UFMG, inachevée",
         "aerospaceEngineeringDetails": "2019 - 2020 (inachevée)",
         "languages": "Langues",
         "english": "Anglais",
         "spanish": "Espagnol",
-        "french": "Français"
+        "french": "Français",
+        "portuguese": "Portugais",
+        "native": "Langue maternelle"
     },
     "contact": "Contact",
     "technologies_work": "Certaines des technologies avec lesquelles j'ai travaillé",
